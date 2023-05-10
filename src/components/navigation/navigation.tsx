@@ -9,6 +9,7 @@ export default component$(() => {
         <div class="flex space-x-4 text-gray-900">
           <a href="/">Dashboard</a>
           <a href="/page1">Page1</a>
+          <a href='/page2'>Page2</a>
         </div>
       </div>
     </div>
