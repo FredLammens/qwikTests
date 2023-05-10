@@ -7,6 +7,8 @@ export default component$(() => {
         track(() => messageSignal.value);
         if(messageSignal.value === 'leKeque'){
             errorSignal.value = true;
+        }else{
+            errorSignal.value = false;
         }
     });
     return <div>
