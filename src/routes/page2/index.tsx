@@ -4,6 +4,6 @@ export default component$(() => {
     const messageSignal = useSignal('');
     return <div>
         <input type="text" placeholder="try me" onInput$={(e) => {messageSignal.value = (e.target as HTMLInputElement).value}}></input>
-        <Projector message={messageSignal.value}></Projector>
+        <Projector message={messageSignal.value}>Your message is: </Projector>
     </div>;
 });
