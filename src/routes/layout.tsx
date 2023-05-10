@@ -7,7 +7,7 @@ export default component$(() => {
     <>
       <Navigation />
       <main>
-        <section class="page">
+        <section class="max-w-5xl mx-auto px-4" >
           <Slot />
         </section>
       </main>
