@@ -10,6 +10,7 @@ export default component$(() => {
           <a href="/">Dashboard</a>
           <a href="/page1">Page1</a>
           <a href='/page2'>Page2</a>
+          <a href='/storePage'>StorePage</a>
         </div>
       </div>
     </div>
